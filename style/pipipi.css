@@ -1,0 +1,83 @@
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+#iniciarSesion{
+    background-color: rgb(116, 172, 255);
+    box-shadow: 0 4px 10px 0 #888;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.busqueda{
+    width: 40%;
+}
+.topLeft{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin: 20px;
+    padding: 15px;
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 0 #888;
+}
+.bottomLeft{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin: 20px;
+    padding: 15px;
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 0 #888;
+}
+#botonUno{
+    width: 90px;
+    box-shadow: 0 4px 10px 0 #888;
+    background-color: wheat;
+    border-radius: 5px;
+}
+#botonDos{
+    width: 90px;
+    box-shadow: 0 4px 10px 0 #888;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+}
+.topRight{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin: 20px;
+    padding: 15px;
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 0 #888;
+}
+.content{
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#definicion{
+    width: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
