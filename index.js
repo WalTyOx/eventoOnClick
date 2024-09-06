@@ -1,7 +1,3 @@
-/* document.getElementById("iniciarSesion").addEventListener("click", function(){
-    cambiarBoton()
-}); 
-console.log(cambiarBoton()) */
 function cambiarBoton() {
     let cierre ="Cerrar Sesión"
     document.getElementById("iniciarSesion").innerHTML = cierre;
